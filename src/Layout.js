@@ -4,7 +4,7 @@ import NavItem from "./component/layout/NavItem";
 export default function Layout() {
   return (
     <>
-      <nav className="mt-6 mb-10">
+      <nav className="my-6">
         <ul className="flex justify-between">
           <NavItem to="/">Feed</NavItem>
           <NavItem to="/about">About</NavItem>
