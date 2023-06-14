@@ -14,3 +14,7 @@ nav a {
 .social-link {
     @apply hover:fill-teal-500;
 }
+
+.footer-link {
+    @apply hover:fill-teal-600;
+}

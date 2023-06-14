@@ -6,12 +6,13 @@ import Weeks from "./component/Weeks";
 import Feed from "./component/Feed";
 import Projects from "./component/Projects";
 import Header from "./component/Header";
+import Footer from "./component/Footer";
 
 function App() {
   return (
     <div className="App p-2">
       <Header />
-      <div className="container mx-auto max-w-screen-sm text-lg min-h-screen">
+      <div className="container mx-auto max-w-screen-sm text-lg min-h-screen relative">
         <HashRouter basename="/">
           <Routes>
               <Route path="/" element={<Layout />}>
@@ -24,6 +25,7 @@ function App() {
           </Routes>
         </HashRouter>
       </div>
+      <Footer />
     </div>
   );
 }
