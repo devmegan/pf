@@ -1,0 +1,7 @@
+#feed img {
+    @apply aspect-[19/10] object-cover mt-4;
+}
+
+.feed-bullet {
+    @apply inline -mt-1 fill-teal-500 my-auto -mb-1 fill-teal-500 -mx-0.5;
+}
