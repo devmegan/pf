@@ -59,7 +59,7 @@ export default function Projects() {
           <Filters languages={languages} filter={filter} handleFilter={handleFilter} />
           {error && <h2>There was an error fetching data from GitHub 🤯</h2>}
           {data && <Cards data={data} filter={filter} />}
-          {!data && !error && (
+          {!data.length > 0 && !error && (
             <div className='min-h-[900px] bg-stone-50 rounded-md grid place-items-center w-full'>
               <Loading srDescription="Loading data about the repositories on my GitHub profile" />
             </div>
