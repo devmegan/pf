@@ -1,5 +1,5 @@
 #feed img {
-    @apply aspect-[19/10] object-cover mt-4;
+    @apply aspect-[16/10] object-cover mt-4 w-full h-auto max-h-[320px];
 }
 
 .feed-bullet {
