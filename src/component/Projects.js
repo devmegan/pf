@@ -1,9 +1,10 @@
 import { useEffect, useState } from "react";
 import Filters from "./projects/Filters";
-import Cards from "./projects/Cards";
+import Cards from './projects/Cards';
+import Loading from "./projects/Loading";
 
 export default function Projects() {
-const [data, setData] = useState([]);
+  const [data, setData] = useState([]);
   const [languages, setLanguages] = useState([]);
   const [filter, setFilter] = useState([]);
   const [error, setError] = useState(false);
@@ -56,7 +57,13 @@ const [data, setData] = useState([]);
       <section id="projects">
           <h2><span role="img" aria-hidden="true">👩‍💻</span> Show me projects using...</h2>
           <Filters languages={languages} filter={filter} handleFilter={handleFilter} />
+          {error && <h2>There was an error fetching data from GitHub 🤯</h2>}
           {data && <Cards data={data} filter={filter} />}
+          {!data && !error && (
+            <div className='min-h-[900px] bg-stone-50 rounded-md grid place-items-center w-full'>
+              <Loading srDescription="Loading data about the repositories on my GitHub profile" />
+            </div>
+          )}
       </section>
   );
 }
