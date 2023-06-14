@@ -13,7 +13,7 @@ export default function Article({ article }) {
                 <Tag emoji={article.emoji} tag={article.tag} />
                 <ReactMarkdown components={{a: linkRenderer }}>{article.text}</ReactMarkdown>
                 {article.img && <img src={article.img} alt={article.alt} loading="lazy" className="bg-stone-300" />}
-                {article.video && <iframe src={article.video} className="aspect-video rounded-md w-full"></iframe>}
+                {article.video && <iframe src={article.video} className="aspect-video rounded-md w-full" title={article.title}></iframe>}
             </div>
         </article>
     );
