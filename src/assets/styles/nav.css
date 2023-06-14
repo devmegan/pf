@@ -1,0 +1,16 @@
+nav li {
+    @apply flex-grow text-center;
+}
+
+nav a {
+    @apply font-bold block py-4;
+    @apply hover:bg-stone-100;
+}
+
+.nav-active {
+    @apply bg-gradient-to-r from-sky-900 to-teal-500 bg-no-repeat bg-bottom bg-[length:70%_6px];
+}
+
+.social-link {
+    @apply hover:fill-teal-500;
+}
