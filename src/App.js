@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App p-2">
       <Header />
-      <main className="container mx-auto max-w-screen-sm text-lg min-h-screen relative">
+      <main className="container mx-auto max-w-screen-sm text-lg min-h-[70vh] relative">
         <HashRouter basename="/">
           <Routes>
               <Route path="/" element={<Layout />}>
