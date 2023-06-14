@@ -12,7 +12,8 @@ export default function Article({ article }) {
                 <Header date={article.date} />
                 <Tag emoji={article.emoji} tag={article.tag} />
                 <ReactMarkdown components={{a: linkRenderer }}>{article.text}</ReactMarkdown>
-                <img src={article.img} alt={article.alt} loading="lazy" className="bg-stone-300" />
+                {article.img && <img src={article.img} alt={article.alt} loading="lazy" className="bg-stone-300" />}
+                {article.video && <iframe src={article.video} className="aspect-video rounded-md w-full"></iframe>}
             </div>
         </article>
     );
