@@ -12,7 +12,7 @@ export default function Footer() {
                         cssClasses={"footer-link"}
                     />
                 </a>
-                <a href="https://github.com/devmegan">
+                <a href="https://github.com/devmegan"target="_blank" rel="noopener noreferrer">
                     <LogoGithub
                         color={'#115e59'}
                         height="33px"
@@ -20,7 +20,7 @@ export default function Footer() {
                         cssClasses={"footer-link"}
                     />
                 </a>
-                <a href="https://hub.docker.com/u/devmegan">
+                <a href="https://hub.docker.com/u/devmegan" target="_blank" rel="noopener noreferrer">
                     <LogoDocker
                         color={'#115e59'}
                         height="36px"

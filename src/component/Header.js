@@ -17,7 +17,7 @@ export default function Header() {
                         cssClasses={"social-link"}
                     />
                 </a>
-                <a href="https://github.com/devmegan">
+                <a href="https://github.com/devmegan" target="_blank" rel="noopener noreferrer">
                     <LogoGithub
                         color={'#fff'}
                         height="30px"
@@ -25,7 +25,7 @@ export default function Header() {
                         cssClasses={"social-link"}
                     />
                 </a>
-                <a href="https://hub.docker.com/u/devmegan">
+                <a href="https://hub.docker.com/u/devmegan" target="_blank" rel="noopener noreferrer">
                     <LogoDocker
                         color={'#fff'}
                         height="34px"
