@@ -1,0 +1,7 @@
+#weeks ul {
+    @apply list-disc pl-8;
+}
+
+#weeks blockquote {
+    @apply mb-8;
+}
