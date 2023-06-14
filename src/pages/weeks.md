@@ -36,7 +36,7 @@ I've been keeping a handful of points from each week in work for the last couple
 - add e2e tests for new b2c endpoints
 - present WCAG wins to disabled boaters forum
 
-## w/c 7.05.25
+### w/c 7.05.23
 - review figma designs for museum and attraction pages
 - demo new homepage and hero forms to c-level
 - set up msw files for form storybook components
