@@ -1,0 +1,16 @@
+.gh-filter {
+    @apply text-stone-900 border-[1px] border-stone-800 px-2.5 py-1 rounded-full self-start text-sm md:text-base;
+    @apply hover:ring-1 hover:ring-stone-700;
+}
+
+.gh-filter svg {
+    @apply inline -mt-0.5;
+}
+
+.gh-filter--active {
+    @apply bg-gradient-to-br from-teal-300 to-green-200 text-stone-900;
+}
+
+.gh-filter--inactive {
+    @apply bg-gradient-to-br from-stone-100 to-stone-50;
+}
