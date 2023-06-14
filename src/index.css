@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import './assets/styles/nav.css';
+@import './assets/styles/feed.css';
+@import './assets/styles/weeks.css';
+@import './assets/styles/projects.css';
+
+/* TYPOGRAPHY */
+
+h2 {
+  @apply text-xl font-bold mb-4;
+}
+
+h3 {
+  @apply text-lg font-bold mt-4 mb-2;
+}
+
+p {
+  @apply mb-4 text-lg;
+}
+
+/* LINKS */
+.groovy-link {
+  @apply font-semibold border-b-teal-600 border-b-2 hover:border-b-[3px];
+  @apply text-transparent bg-clip-text bg-gradient-to-b from-sky-800 to-teal-600;
+  @apply hover:from-sky-950 hover:to-teal-600;
+}
+
+/* IMAGES */
+
+img {
+  @apply rounded-md;
+}
+
+blockquote {
+  @apply border-l-4 border-l-teal-600 pl-4;
+}
