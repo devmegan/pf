@@ -5,7 +5,12 @@ import ProjectDefault from '../../../assets/img/project-default.png';
 
 export default function Card({ repo }) {
     return (
-        <a role="article" target="_blank" rel="noreferrer noopener" href={repo.html_url} className="hover:bg-stone-100 block p-4 mb-6 rounded-md" >
+        <a 
+            target="_blank"
+            rel="noreferrer noopener"
+            href={repo.html_url}
+            className="hover:bg-stone-100 block p-4 mb-6 rounded-md focus:ring-4 ring-teal-800 ring-opacity-50"
+        >
              <Img
                 alt={`screenshot from a demo of the ${repo.name} repository`}
                 className="w-full object-cover h-auto max-h-[320px] bg-stone-300"

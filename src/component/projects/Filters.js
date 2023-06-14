@@ -3,7 +3,7 @@ import Loading from "./Loading";
 
 export default function Filters({ languages, filter, handleFilter }) {
     return (
-        <div className="flex flex-wrap gap-2 my-8 md:my-4">
+        <div className="flex flex-wrap gap-2 my-4">
         {languages.length
             ? languages.map((language, index) => (
                 <button
