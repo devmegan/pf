@@ -3,7 +3,8 @@ import Article from './feed/Article';
 
 export default function Feed() {
     return (
-        <section id="feed" className='focus-within:ring-4 ring-teal-800 ring-opacity-50 p-2 -mt-4'>
+        <section id="feed">
+            <h2><span role="img" aria-hidden="true">💬</span> 2023 feed</h2>
             {FeedData.map((article, index) => (
                 <Article key={index} article={article} />
             ))}

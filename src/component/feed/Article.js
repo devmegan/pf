@@ -6,7 +6,7 @@ import Header from "./article/Header";
 
 export default function Article({ article }) {
     return (
-        <article className='mb-6 flex hover:bg-stone-100 rounded-md p-5 pb-6 pl-3'>
+        <article className='mb-6 flex hover:bg-stone-100 rounded-md p-3 pl-2'>
             <Icon />
             <div>
                 <Header date={article.date} />
