@@ -10,7 +10,7 @@ import Footer from "./component/Footer";
 
 function App() {
   return (
-    <div className="App p-2">
+    <div className="App p-2 min-h-screen">
       <Header />
       <main className="container mx-auto max-w-screen-sm text-lg min-h-[70vh] relative">
         <HashRouter basename="/">
