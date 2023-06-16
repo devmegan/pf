@@ -1,10 +1,10 @@
-## 📅 Little snippets
+## 📅 Snippets
 
-I've been keeping a handful of points from each week in work for the last couple of years. It's more lightweight than blogging, and still lets me look back on the past few years and appreciate the enduring wisdom of my favourite flux philosopher:
+Each week I update a BitBucket snippet with the main things I've worked on that week. It's a bit more lightweight than blogging, and still lets me look back on the past few years and appreciate the enduring wisdom of my favourite flux philosopher:
 
-> No man ever steps in the same river twice, for it's not the same river and he's not the same man
+> No man ever steps in the same river twice, for it's not the same river and he's not the same man.
 >
-> -- Heraclitus.
+> -- Heraclitus
 
 ### w/c 11.06.23
 - upgrade 2021 vue portfolio to 2023 react portfolio
